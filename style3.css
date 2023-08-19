@@ -1,0 +1,241 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins" , sans-serif;
+}
+
+
+.container1{
+  width: 90%;
+  background: #fff;
+  border-radius: 6px;
+  padding: 20px 60px 30px 40px;
+}
+.container1 .content1{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.container1 .content1 .left-side1{
+  width: 25%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+  position: relative;
+}
+.content1 .left-side1::before{
+  content: '';
+  position: absolute;
+  height: 70%;
+  width: 2px;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #afafb6;
+}
+.content1 .left-side1 .details1{
+  margin: 14px;
+  text-align: center;
+}
+.content1 .left-side1 .details1 i{
+  font-size: 30px;
+  color: #3e2093;
+  margin-bottom: 10px;
+}
+.content1 .left-side1 .details1 .topic1{
+  font-size: 18px;
+  font-weight: 500;
+}
+.content1 .left-side1 .details1 .text-one,
+.content1 .left-side1 .details1 .text-two{
+  font-size: 14px;
+  color: #afafb6;
+}
+
+
+.container1 .content1 .right-side1{
+  width: 100%;
+  margin-left: -200px;
+}
+.content1 .right-side1 .topic-text1{
+  font-size: 23px;
+  font-weight: 600;
+  color: #3e2093;
+}
+.right-side1 .input-box1{
+  height: 50px;
+  width: 150%;
+  margin: 12px 0;
+}
+.right-side1 .input-box1 input,
+.right-side1 .input-box1 textarea{
+  height: 100%;
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  background: #F0F1F8;
+  border-radius: 6px;
+  padding: 0 15px;
+  resize: none;
+}
+.right-side1 .message-box1{
+  min-height: 100px;
+}
+.right-side1 .input-box1 textarea{
+  padding-top: 6px;
+}
+.right-side1 .button{
+  display: inline-block;
+  margin-top: 12px;
+}
+.right-side1 .button input[type="button"]{
+  color: #fff;
+  font-size: 18px;
+  outline: none;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  background: #3e2093;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.button input[type="button"]:hover{
+  background: #5029bc;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* /// */

@@ -1,0 +1,219 @@
+			*{
+			  margin: 0;
+			  padding: 0;
+			  box-sizing: border-box;
+			  font-family: "Poppins" , sans-serif;
+			}
+
+			.child-navbar{
+                display: flex;
+                justify-content: left;
+                width: 100%;
+                position:sticky;
+                top:0;
+                background: white;
+            }
+            .child-nav{
+                display: flex;
+                background: #f25477;
+                color: black;
+                min-width:100px;
+                height:40px;
+                border-radius: 3px;
+                margin: 10px;
+                text-align: center;
+                line-height: 40px;
+                font-size: 20px;
+                cursor: pointer;
+                text-decoration: none;
+                justify-content: left;
+            }
+			h1{
+				justify-content: left;
+			}
+            .box1{
+                display: flex;
+                justify-content: space-between;
+                margin: 50px;
+                background: #90EE90;
+                box-shadow: 0 5px 15px rgb(255 192 203);
+            }
+            .category-box{
+                width: 50%;
+                text-align: left;
+                padding: 10px;
+                padding-bottom: 25px;
+            }
+            .image-box{
+                display: flex;
+                width: 60%;
+                flex-direction: column;
+            }
+            .image{
+                width: 85%;
+                margin: auto;
+                
+            }
+            .head-box{
+                border-bottom:1px solid #ec275f;
+                width:30vw;
+				text-decoration:bold;
+                margin-left:auto;
+                margin-right: auto;
+            }
+            .services-box{
+                border-bottom:1px solid #f25477;
+                width:30vw;
+                margin-left:auto;
+                margin-right: auto;
+            }
+           
+            .services-box:hover{
+                cursor: pointer;
+                background:green;
+            }
+            
+            .category-box h1{
+                font-size:39px;
+                margin-bottom: 5vh;
+            }
+            .category-box h2{
+                font-size:24px;
+            }
+            hr{
+                border-top: 3px solid #ec275f;
+            }
+            p{
+                font-size:20px;
+            }
+            span{
+                color: white;
+            }
+
+            @media (max-width: 900px) {
+                .child-navbar {
+                    display: grid;
+                    grid-template-columns: repeat(4, 1fr);
+                    grid-gap: 10px;
+                }
+            }
+            @media (max-width: 700px) {
+                .child-navbar {
+                    display: grid;
+                    grid-template-columns: repeat(3, 1fr);
+                    grid-gap: 10px;
+                }
+                .image-box{
+                    display: none;
+                }
+                .box1{
+                    display: flex;
+                    flex-direction: column;
+                    margin: 50px;
+                    background: green;
+                }
+                .category-box{
+                    margin:auto;
+                }
+            }
+			
+			footer {
+		  background-color:#45526e;
+		  padding:25px 25px;
+		  margin-top:390px;
+		}
+		
+		footer .copyright {
+		  text-align:center;
+		  padding-top:24px;
+		  opacity:0.75;
+		  font-size:13px;
+		  margin-bottom:0;
+		  
+		}
+		
+		footer button {
+			background-color: transparent;
+			border: none;
+			cursor: pointer;
+			outline: none;
+		}
+		
+		form {
+			border: 3px solid #f1f1f1;
+			margin-left: 300px;
+			margin-right: 300px;
+			padding-top: 10px;
+
+			}
+
+			input[type=text], input[type=password] {
+			  width: 100%;
+			  padding: 12px;
+			  margin: 2 px;
+			  display: inline-block;
+			  border: 1px solid #ccc;
+			  box-sizing: border-box;
+			}
+
+			form button {
+			  background-color: #04AA6D;
+			  color: white;
+			  padding: 14px 20px;
+			  margin: 8px 0;
+			  border: none;
+			  cursor: pointer;
+			  width: 100%;
+			}
+
+			form button:hover {
+			  opacity: 0.8;
+			}
+
+			.cancelbtn {
+			  width: auto;
+			  padding: 10px 18px;
+			  background-color: #f44336;
+			}
+
+			.imgcontainer {
+			  text-align: center;
+			  margin: 24px 0 12px 0;
+			}
+
+			img.avatar {
+			  height: 40%;
+			  width: 40%;
+			}
+
+			.container {
+			  padding: 16px;
+			}
+
+			span.psw {
+			  float: right;
+			  padding-top: 16px;
+			}
+
+			/* Change styles for span and cancel button on extra small screens */
+			@media screen and (max-width: 300px) {
+			  span.psw {
+				 display: block;
+				 float: none;
+			  }
+			  .cancelbtn {
+				 width: 100%;
+			  }
+			}
+
+			.socialmedia button {
+			  color: white;
+			  padding: 14px 20px;
+			  border: none;
+			  cursor: pointer;
+			  width: 60%;
+			}
+
+			.socialmedia button:hover {
+			  opacity: 0.8;
+			}
